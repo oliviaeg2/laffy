@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9F23FC1209877BD00CFEC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F23FC0209877BD00CFEC6D /* AppDelegate.swift */; };
+		B9F23FC3209877BD00CFEC6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F23FC2209877BD00CFEC6D /* ViewController.swift */; };
+		B9F23FC6209877BD00CFEC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F23FC4209877BD00CFEC6D /* Main.storyboard */; };
+		B9F23FC8209877BD00CFEC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9F23FC7209877BD00CFEC6D /* Assets.xcassets */; };
+		B9F23FCB209877BD00CFEC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F23FC9209877BD00CFEC6D /* LaunchScreen.storyboard */; };
+		B9F23FD6209877BE00CFEC6D /* LaffyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F23FD5209877BE00CFEC6D /* LaffyTests.swift */; };
+		B9F23FE1209877BE00CFEC6D /* LaffyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F23FE0209877BE00CFEC6D /* LaffyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9F23FD2209877BE00CFEC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9F23FB5209877BD00CFEC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9F23FBC209877BD00CFEC6D;
+			remoteInfo = Laffy;
+		};
+		B9F23FDD209877BE00CFEC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9F23FB5209877BD00CFEC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9F23FBC209877BD00CFEC6D;
+			remoteInfo = Laffy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9F23FBD209877BD00CFEC6D /* Laffy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laffy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F23FC0209877BD00CFEC6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9F23FC2209877BD00CFEC6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9F23FC5209877BD00CFEC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9F23FC7209877BD00CFEC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9F23FCA209877BD00CFEC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9F23FCC209877BE00CFEC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F23FD1209877BE00CFEC6D /* LaffyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaffyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F23FD5209877BE00CFEC6D /* LaffyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaffyTests.swift; sourceTree = "<group>"; };
+		B9F23FD7209877BE00CFEC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F23FDC209877BE00CFEC6D /* LaffyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaffyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F23FE0209877BE00CFEC6D /* LaffyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaffyUITests.swift; sourceTree = "<group>"; };
+		B9F23FE2209877BE00CFEC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9F23FBA209877BD00CFEC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F23FCE209877BE00CFEC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F23FD9209877BE00CFEC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9F23FB4209877BD00CFEC6D = {
+			isa = PBXGroup;
+			children = (
+				B9F23FBF209877BD00CFEC6D /* Laffy */,
+				B9F23FD4209877BE00CFEC6D /* LaffyTests */,
+				B9F23FDF209877BE00CFEC6D /* LaffyUITests */,
+				B9F23FBE209877BD00CFEC6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9F23FBE209877BD00CFEC6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9F23FBD209877BD00CFEC6D /* Laffy.app */,
+				B9F23FD1209877BE00CFEC6D /* LaffyTests.xctest */,
+				B9F23FDC209877BE00CFEC6D /* LaffyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9F23FBF209877BD00CFEC6D /* Laffy */ = {
+			isa = PBXGroup;
+			children = (
+				B9F23FC0209877BD00CFEC6D /* AppDelegate.swift */,
+				B9F23FC2209877BD00CFEC6D /* ViewController.swift */,
+				B9F23FC4209877BD00CFEC6D /* Main.storyboard */,
+				B9F23FC7209877BD00CFEC6D /* Assets.xcassets */,
+				B9F23FC9209877BD00CFEC6D /* LaunchScreen.storyboard */,
+				B9F23FCC209877BE00CFEC6D /* Info.plist */,
+			);
+			path = Laffy;
+			sourceTree = "<group>";
+		};
+		B9F23FD4209877BE00CFEC6D /* LaffyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9F23FD5209877BE00CFEC6D /* LaffyTests.swift */,
+				B9F23FD7209877BE00CFEC6D /* Info.plist */,
+			);
+			path = LaffyTests;
+			sourceTree = "<group>";
+		};
+		B9F23FDF209877BE00CFEC6D /* LaffyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9F23FE0209877BE00CFEC6D /* LaffyUITests.swift */,
+				B9F23FE2209877BE00CFEC6D /* Info.plist */,
+			);
+			path = LaffyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9F23FBC209877BD00CFEC6D /* Laffy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F23FE5209877BE00CFEC6D /* Build configuration list for PBXNativeTarget "Laffy" */;
+			buildPhases = (
+				B9F23FB9209877BD00CFEC6D /* Sources */,
+				B9F23FBA209877BD00CFEC6D /* Frameworks */,
+				B9F23FBB209877BD00CFEC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Laffy;
+			productName = Laffy;
+			productReference = B9F23FBD209877BD00CFEC6D /* Laffy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9F23FD0209877BE00CFEC6D /* LaffyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F23FE8209877BE00CFEC6D /* Build configuration list for PBXNativeTarget "LaffyTests" */;
+			buildPhases = (
+				B9F23FCD209877BE00CFEC6D /* Sources */,
+				B9F23FCE209877BE00CFEC6D /* Frameworks */,
+				B9F23FCF209877BE00CFEC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9F23FD3209877BE00CFEC6D /* PBXTargetDependency */,
+			);
+			name = LaffyTests;
+			productName = LaffyTests;
+			productReference = B9F23FD1209877BE00CFEC6D /* LaffyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9F23FDB209877BE00CFEC6D /* LaffyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F23FEB209877BE00CFEC6D /* Build configuration list for PBXNativeTarget "LaffyUITests" */;
+			buildPhases = (
+				B9F23FD8209877BE00CFEC6D /* Sources */,
+				B9F23FD9209877BE00CFEC6D /* Frameworks */,
+				B9F23FDA209877BE00CFEC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9F23FDE209877BE00CFEC6D /* PBXTargetDependency */,
+			);
+			name = LaffyUITests;
+			productName = LaffyUITests;
+			productReference = B9F23FDC209877BE00CFEC6D /* LaffyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9F23FB5209877BD00CFEC6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Olivia Gregory";
+				TargetAttributes = {
+					B9F23FBC209877BD00CFEC6D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T829AWJPEZ;
+						ProvisioningStyle = Automatic;
+					};
+					B9F23FD0209877BE00CFEC6D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9F23FBC209877BD00CFEC6D;
+					};
+					B9F23FDB209877BE00CFEC6D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9F23FBC209877BD00CFEC6D;
+					};
+				};
+			};
+			buildConfigurationList = B9F23FB8209877BD00CFEC6D /* Build configuration list for PBXProject "Laffy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9F23FB4209877BD00CFEC6D;
+			productRefGroup = B9F23FBE209877BD00CFEC6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9F23FBC209877BD00CFEC6D /* Laffy */,
+				B9F23FD0209877BE00CFEC6D /* LaffyTests */,
+				B9F23FDB209877BE00CFEC6D /* LaffyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9F23FBB209877BD00CFEC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F23FCB209877BD00CFEC6D /* LaunchScreen.storyboard in Resources */,
+				B9F23FC8209877BD00CFEC6D /* Assets.xcassets in Resources */,
+				B9F23FC6209877BD00CFEC6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F23FCF209877BE00CFEC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F23FDA209877BE00CFEC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9F23FB9209877BD00CFEC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F23FC3209877BD00CFEC6D /* ViewController.swift in Sources */,
+				B9F23FC1209877BD00CFEC6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F23FCD209877BE00CFEC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F23FD6209877BE00CFEC6D /* LaffyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F23FD8209877BE00CFEC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F23FE1209877BE00CFEC6D /* LaffyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9F23FD3209877BE00CFEC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9F23FBC209877BD00CFEC6D /* Laffy */;
+			targetProxy = B9F23FD2209877BE00CFEC6D /* PBXContainerItemProxy */;
+		};
+		B9F23FDE209877BE00CFEC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9F23FBC209877BD00CFEC6D /* Laffy */;
+			targetProxy = B9F23FDD209877BE00CFEC6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9F23FC4209877BD00CFEC6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9F23FC5209877BD00CFEC6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9F23FC9209877BD00CFEC6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9F23FCA209877BD00CFEC6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9F23FE3209877BE00CFEC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9F23FE4209877BE00CFEC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9F23FE6209877BE00CFEC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T829AWJPEZ;
+				INFOPLIST_FILE = Laffy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laughmore.Laffy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B9F23FE7209877BE00CFEC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T829AWJPEZ;
+				INFOPLIST_FILE = Laffy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laughmore.Laffy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B9F23FE9209877BE00CFEC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LaffyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laughmore.LaffyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laffy.app/Laffy";
+			};
+			name = Debug;
+		};
+		B9F23FEA209877BE00CFEC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LaffyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laughmore.LaffyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laffy.app/Laffy";
+			};
+			name = Release;
+		};
+		B9F23FEC209877BE00CFEC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LaffyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laughmore.LaffyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Laffy;
+			};
+			name = Debug;
+		};
+		B9F23FED209877BE00CFEC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LaffyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = laughmore.LaffyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Laffy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9F23FB8209877BD00CFEC6D /* Build configuration list for PBXProject "Laffy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F23FE3209877BE00CFEC6D /* Debug */,
+				B9F23FE4209877BE00CFEC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9F23FE5209877BE00CFEC6D /* Build configuration list for PBXNativeTarget "Laffy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F23FE6209877BE00CFEC6D /* Debug */,
+				B9F23FE7209877BE00CFEC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9F23FE8209877BE00CFEC6D /* Build configuration list for PBXNativeTarget "LaffyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F23FE9209877BE00CFEC6D /* Debug */,
+				B9F23FEA209877BE00CFEC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9F23FEB209877BE00CFEC6D /* Build configuration list for PBXNativeTarget "LaffyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F23FEC209877BE00CFEC6D /* Debug */,
+				B9F23FED209877BE00CFEC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9F23FB5209877BD00CFEC6D /* Project object */;
+}
